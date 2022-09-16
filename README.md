@@ -3,9 +3,7 @@ An extremely simple example of usin OpenAi's gpt3 to explain complex license, le
 
 Usage:
 
-``
-
-`OPENAI_API_KEY=YOUR API KEY HERE node eli5.mjs --preamble "Summarize the following text for a 2nd grade student:" -d ./test/gpl_half.txt
+`OPENAI_API_KEY=YOUR API KEY HERE node eli5.mjs --preamble "Summarize the following text for a 2nd grade student:" -d ./test/gpl_half.txt`
 
 This results in a somewhat easier to understand version of the GPL license:
 ```
